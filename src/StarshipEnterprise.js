@@ -58,7 +58,7 @@ class StarshipEnterprise {
     });
     const officerRanks = {};
 
-    while (1 < 2) {
+    while (true) {
       const { rank, officer } = queue.dequeue() || {};
       if (!officer) break;
 
